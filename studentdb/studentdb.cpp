@@ -1,5 +1,4 @@
 #include <iostream>
-#include <conio.h>
 #include <string>
 
 using namespace std;
@@ -14,7 +13,7 @@ int main()
 {
 	cout << "[1] Dodaj studenta (imie, nazwisko, nr_indeksu)\n";
 	cout << "[2] Sortuj po nr indeksu \n";
-	cout << "[3] Usun po nr indkesu[NOT IMPLEMENTED] \n";
+	cout << "[3] Usun po nr indkesu \n";
 	cout << "[4] Wyjscie \n";
 
 	
@@ -22,11 +21,12 @@ int main()
 
 	do
 	{
+		cout << "Wybierz co chcesz zrobić: ";
 		cin >> menu;
 
 		switch (menu)
 		{
-		case 1:
+		case 1:	
 			cin >> s[i].imie >> s[i].nazwisko >> s[i].indeks;
 			i++;
 			break;
@@ -48,17 +48,37 @@ int main()
 			break;
 
 		case 3:
+			cout << "Podaj numer indeksu do usuniecia: ";
+			int nrIndeks;
+			cin >> nrIndeks;
+			for(int k = 0; k < i; k++)
+			{
+				if(nrIndeks == s[k].indeks)
+				{
+					if(k == i)
+					{
+						i--;
+					}
+					else
+					{
+						for(int j = k; j < i - 1; j++)
+							swap(s[j], s[j+1]);
+						i--;
+					}
+				break;		
+				}
+			}
+ 
 			break;
 
 		}
 	} while (menu != 4);
-
 
 	for (int j = 0; j < i; j++)
 	{
 		cout << s[j].imie << "\t" << s[j].nazwisko << "\t" << s[j].indeks << endl;
 	}
 
-	_getch();
+	cin.get();
 	return 0;
 }
