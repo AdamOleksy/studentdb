@@ -1,18 +1,13 @@
 #include <iostream>
 #include <string>
-
+#include "student.hpp"
 using namespace std;
-
-struct Student
-{
-	string imie, nazwisko;
-	int indeks;
-}s[10];
 
 int main()
 {
-	cout << "[1] Dodaj studenta (imie, nazwisko, nr_indeksu)\n";
-	cout << "[2] Sortuj po nr indeksu \n";
+	Student s[10];
+	cout << "[1] Dodaj studenta (imie_, nazwisko_, nr_indeks_u)\n";
+	cout << "[2] Sortuj po nr indeks_u \n";
 	cout << "[3] Usun po nr indkesu \n";
 	cout << "[4] Wyjscie \n";
 
@@ -27,7 +22,7 @@ int main()
 		switch (menu)
 		{
 		case 1:	
-			cin >> s[i].imie >> s[i].nazwisko >> s[i].indeks;
+			cin >> s[i].imie_ >> s[i].nazwisko_ >> s[i].indeks_;
 			i++;
 			break;
 
@@ -36,11 +31,11 @@ int main()
 			{
 				for (int j = 0; j < i - 1; j++)
 				{
-					if (s[j].indeks > s[j + 1].indeks)
+					if (s[j].indeks_ > s[j + 1].indeks_)
 					{
-						swap(s[j].indeks, s[j + 1].indeks);
-						swap(s[j].imie, s[j + 1].imie);
-						swap(s[j].nazwisko, s[j + 1].nazwisko);
+						swap(s[j].indeks_, s[j + 1].indeks_);
+						swap(s[j].imie_, s[j + 1].imie_);
+						swap(s[j].nazwisko_, s[j + 1].nazwisko_);
 					}
 
 				}
@@ -48,12 +43,12 @@ int main()
 			break;
 
 		case 3:
-			cout << "Podaj numer indeksu do usuniecia: ";
+			cout << "Podaj numer indeks_u do usuniecia: ";
 			int nrIndeks;
 			cin >> nrIndeks;
 			for(int k = 0; k < i; k++)
 			{
-				if(nrIndeks == s[k].indeks)
+				if(nrIndeks == s[k].indeks_)
 				{
 					if(k == i)
 					{
@@ -76,7 +71,7 @@ int main()
 
 	for (int j = 0; j < i; j++)
 	{
-		cout << s[j].imie << "\t" << s[j].nazwisko << "\t" << s[j].indeks << endl;
+		cout << s[j].imie_ << "\t" << s[j].nazwisko_ << "\t" << s[j].indeks_ << endl;
 	}
 
 	cin.get();
