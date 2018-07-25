@@ -3,18 +3,15 @@
 #include <iostream>
 #include <string>
 
-Employee::Employee(void)
-{
-}
 
-Employee::Employee(std::string firstName = "", std::string lastName = "", float salary = 0.0) 
+Employee::Employee(std::string firstName, std::string lastName, float salary)
 : FirstName(firstName), LastName(lastName), Salary(salary)
 {
 	//FirstName = firstName;
 	//LastName = lastName;
 }
 
-Employee::~Employee(void)
+Employee::~Employee()
 {
 }
 

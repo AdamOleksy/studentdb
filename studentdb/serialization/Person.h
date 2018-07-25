@@ -12,9 +12,8 @@ public:
 	std::string FirstName;
 	std::string LastName;
 
-	Person(void);
 	Person(std::string firstName, std::string lastName);
-	~Person(void);
+    ~Person();
 	friend bool operator==(Person& obj1, Person& obj2);
 	friend std::ostream& operator<<(std::ostream& out, Person& obj);
 	friend std::istream& operator>>(std::istream& in, Person& obj);

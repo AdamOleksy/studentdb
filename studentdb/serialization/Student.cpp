@@ -3,11 +3,8 @@
 #include <iostream>
 #include <string>
 
-Student::Student(void)
-{
-}
 
-Student::Student(std::string indexNo = "", std::string firstName = "", std::string lastName = "", float averageGrade = 0.0) 
+Student::Student(std::string indexNo, std::string firstName, std::string lastName, float averageGrade)
 : IndexNo(indexNo), FirstName(firstName), LastName(lastName), AverageGrade(averageGrade)
 {
 	//IndexNo = indexNo;
@@ -16,7 +13,7 @@ Student::Student(std::string indexNo = "", std::string firstName = "", std::stri
 	//AverageGrade = averageGrade;
 }
 
-Student::~Student(void)
+Student::~Student()
 {
 }
 

@@ -10,9 +10,8 @@ public:
 	std::string LastName;
 	float Salary;
 
-	Employee(void);
-	Employee(std::string firstName, std::string lastName, float salary);
-	~Employee(void);
+    Employee(std::string firstName = "", std::string lastName = "", float salary = 0.0);
+    ~Employee();
 	friend bool operator==(Employee& obj1, Employee& obj2);
 	friend std::ostream& operator<<(std::ostream& out, Employee& obj);
 	friend std::istream& operator>>(std::istream& in, Employee& obj);

@@ -3,17 +3,14 @@
 #include <iostream>
 #include <string>
 
-Person::Person(void)
-{
-}
 
-Person::Person(std::string firstName = "", std::string lastName = "")
+Person::Person(std::string firstName, std::string lastName)
 {
 	FirstName = firstName;
 	LastName = lastName;
 }
 
-Person::~Person(void)
+Person::~Person()
 {
 }
 
