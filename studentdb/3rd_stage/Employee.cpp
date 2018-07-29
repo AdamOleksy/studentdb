@@ -2,9 +2,14 @@
 #include <iostream>
 #include <string>
 
+// This is to be removed, just to testing purposes
+Employee::Employee()
+    : Person("", "", "", "")
+{
+}
 
 Employee::Employee(string pesel, string firstName, string lastName, string address, float salary)
-: Person(pesel, firstName, lastName, address), Salary(salary)
+    : Person(pesel, firstName, lastName, address), Salary(salary)
 {
 	Occupation = "Employee";
 }

@@ -10,6 +10,7 @@ class Employee : public Person
 public:
 	float Salary;
 
+    Employee();
     Employee(string pesel, string firstName, string lastName, string address, float salary);
     ~Employee();
 	friend std::ostream& operator<<(std::ostream& out, Employee& obj);

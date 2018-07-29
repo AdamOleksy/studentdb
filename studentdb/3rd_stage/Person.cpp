@@ -38,6 +38,29 @@ string Person::getAddress()
 	return Address;
 }
 
+bool Person::validPesel()
+{
+    // Check if is number and 11 digit long
+    return true;
+}
+
+int Person::getPeselDigit(int index)
+{
+    if (PESEL.length() <= index)
+        return (int)(PESEL[index] - '0');
+    return -1;
+}
+
+string Person::getSex()
+{
+    if (validPesel())
+        if (isdigit(PESEL[9]))
+            return ((int)(PESEL[9] - '0') % 2 == 1) ?
+                "Man" :
+                "Woman";
+    return "n/a";
+}
+
 bool operator==(Person& obj1, Person& obj2)
 {
     return (obj1.Occupation.compare(obj2.Occupation) == 0 &&
