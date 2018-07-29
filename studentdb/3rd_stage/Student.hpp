@@ -10,6 +10,7 @@ class Student : public Person
 public:
 	string IndexNumber;
 
+    Student();
     Student(string pesel, string firstName, string lastName, string address, string indexNumber);
     ~Student();
 	friend std::ostream& operator<<(std::ostream& out, Student& obj);

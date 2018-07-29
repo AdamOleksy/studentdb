@@ -2,9 +2,14 @@
 #include <iostream>
 #include <string>
 
+// This is to be removed, just to testing purposes
+Student::Student()
+    : Person("", "", "", "")
+{
+}
 
 Student::Student(string pesel, string firstName, string lastName, string address, string indexNumber)
-: Person(pesel, firstName, lastName, address) , IndexNumber(indexNumber)
+    : Person(pesel, firstName, lastName, address) , IndexNumber(indexNumber)
 {
 	Occupation = "Student";
 }
