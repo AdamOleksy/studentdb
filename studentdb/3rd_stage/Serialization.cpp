@@ -4,6 +4,7 @@
 #include "Person.hpp"
 #include "Student.hpp"
 #include "Employee.hpp"
+#include "DataBase.hpp"
 #include <iostream>
 #include <fstream>
 #include <cassert>
@@ -16,9 +17,13 @@ void testStudentDB();
 
 int main(int argc, char* argv[])
 {
-    testStudentDB();
+    //testStudentDB();
 
-    testEmployeeDB();
+    //testEmployeeDB();
+
+    DataBase dataBase;
+    dataBase.loadDataBase();
+    dataBase.dataSize();
 
     return 0;
 }
@@ -106,3 +111,4 @@ void testEmployeeDB()
     cout << "Sex: " << empl2.getSex() << endl;
     cout << "Sex: " << empl3.getSex() << endl;
 }
+
