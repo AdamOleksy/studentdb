@@ -61,3 +61,25 @@ int DataBase::dataSize()
     std::cout << "Wielkosc tablicy: " << dataBase_.size() << std::endl;
     return dataBase_.size();
 }
+void DataBase::deleteByPESEL(std::string PES)
+{
+    int i =0;
+    for(auto a : dataBase_)
+    {
+        if(a->PESEL == PES){
+            delete dataBase_[i];
+            dataBase_.erase(dataBase_.begin()+i);
+            break;
+        }
+        i++;
+    }
+}
+void DataBase::findByPESEL(std::string PES)
+{
+    for(auto a : dataBase_)
+    {
+        if(a->PESEL == PES){
+            std::cout << "Osoba " << a->FirstName << " ma pesel " << PES;
+        }
+    }
+}

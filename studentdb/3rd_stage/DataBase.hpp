@@ -18,4 +18,10 @@ public:
     //Zapisze baze do pliku Data.csv
     void saveDataBase();
 
+    //Usuwa osobe po peselu
+    void deleteByPESEL(std::string PES);
+
+    //Wyszukiwanie po peselu
+    void findByPESEL(std::string PES);
+
 };
