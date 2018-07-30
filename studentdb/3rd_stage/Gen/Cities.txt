@@ -1,0 +1,393 @@
+21-143 Abramow
+87-700 Aleksandrow Kujawski
+95-070 Aleksandrow Lodzki
+32-566 Alwernia
+95-020 Andrespol
+34-120 Andrychow
+07-305 Andrzejewo
+23-235 Annopol
+95-071 Antoniew k. Lodzi
+16-300 Augustow
+62-620 Babiak
+32-551 Babice
+05-082 Babice Stare
+66-110 Babimost
+48-120 Baborow
+09-130 Baboszewo
+87-704 Badkowo
+16-423 Bakalarzewo
+38-606 Baligrod
+74-110 Banie
+19-520 Banie Mazurskie
+05-532 Baniocha k. Gory Kalwarii
+06-320 Baranowo
+62-081 Baranowo k.Poznania
+63-604 Baranow
+39-450 Baranow Sandomierski
+11-410 Barciany
+88-190 Barcin
+11-010 Barczewo
+57-256 Bardo
+16-320 Barglow Kolcielny
+74-320 Barlinek
+87-321 Bartniczka
+11-200 Bartoszyce
+78-460 Barwice
+46-233 B¥kow
+97-319 Bedkow
+97-400 Belchatow
+44-230 Belk
+22-670 Bell«ec
+43-512 Bestwina
+26-307 Bialaczow
+22-135 Bialopole
+98-350 Biala
+12-230 Biala Piska
+21-500 Biala Podlaska
+96-230 Biala Rawska
+86-005 Biale Blota
+26-800 Bialobrzegi
+78-200 Bialogard
+67-221 Bialoleka
+89-340 Bialoeliwie
+17-230 Bialowie
+78-425 Bialy Bor
+86-302 Bialy Bor k. Grudzi¥dza
+34-425 Bialy Dunajec
+15-102 Bialystok
+15-524 Bialystok-Grabowka
+15-601 Bialystok-Kleosin
+15-521 Bialystok-Zaecianki
+38-250 Biecz
+08-311 Bielany
+55-040 Bielany Wroclawskie
+58-260 Bielawa
+99-423 Bielawy
+74-202 Bielice
+26-004 Bieliny
+09-230 Bielsk
+17-100 Bielsk Podlaski
+43-309 Bielsko-Biala
+47-240 Bierawa
+57-315 Bierkowice
+43-155 Bieruä
+56-420 Bierutow
+72-240 Bierzwnik
+76-039 Biesiekierz
+09-320 Biezun
+23-400 Bilgoraj
+97-318 Biskupia Wola
+32-041 Biskupice
+13-340 Biskupiec
+11-300 Biskupiec
+11-330 Bisztynek
+42-290 Blachownia
+42-290 Blachownia-Cisie
+98-235 Blaszki
+66-350 Bledzew
+26-120 Blizyn
+97-505 Blok Dobryszyce
+36-030 Blazowa
+05-620 Bledow
+05-870 Blonie
+76-020 Bobolice
+38-350 Bobowa
+83-212 Bobowo
+87-327 Bobrowo
+32-700 Bochnia
+24-120 Bochotnica
+17-111 Bocki
+09-470 Bodzanow
+26-010 Bodzentyn
+59-920 Bogatynia
+66-450 Bogdaniec
+28-210 Bogoria
+36-040 Boguchwala
+36-040 Boguchwala k. Rzeszowa
+58-370 Boguszow
+58-370 Boguszolw-Gorce
+07-325 Boguty-Pianki
+66-130 Bojadla
+37-433 Bojanow
+63-940 Bojanowo
+43-220 Bojszowy
+32-082 Bolechowice
+74-407 Boleszkowice
+64-305 Bolewice
+99-417 Bolimow
+59-420 Bolkow
+84-239 Bolszewo
+63-810 Borek Wielkopolski
+21-145 Borki
+78-449 Borne Sulinowo
+42-283 Boronow
+08-412 Borowie
+57-160 Borow
+77-141 Borzytuchom
+64-140 Boszkowo
+63-640 Bralin
+14-500 Braniewo
+17-120 Braäsk
+07-221 Braäszczyk
+36-055 Bratkowice
+43-438 Brenna
+05-088 Brochow
+87-300 Brodnica
+63-112 Brodnica
+07-306 Brok
+62-720 Brudzew
+89-632 Brusy
+05-840 Brwinow
+46-024 Brynice
+49-300 Brzeg
+56-120 Brzeg Dolny
+32-800 Brzesko
+32-620 Brzeszcze
+95-060 Brzeziny (Lodski)
+34-114 Brzeznica
+98-275 Brzeznio
+39-207 Brze nica
+86-061 Brzoza
+86-061 Brzoza
+36-200 Brzozow
+87-517 Brzuze
+98-113 Buczek
+43-374 Buczkowice
+11-606 Budry
+97-212 Budziszewice
+64-840 Budzyä
+43-356 Bujakow
+64-320 Buk
+86-122 Bukowiec
+34-530 Bukowina Tatrzaäska
+32-332 Bukowno
+98-260 Burzenin
+28-100 Busko-Zdroj
+23-100 Bychawa
+46-220 Byczyna
+85-461 Bydgoszcz
+43-360 Bystra
+57-500 Bystrzyca Klodz.
+41-902 Bytom
+67-115 Bytom Odrzaäski
+82-300 Elbl¥g
+19-300 Elk
+34-480 Jablonka
+05-110 Jablonna
+08-304 Jablonna L¥cka
+87-330 Jablonowo Pomorskie
+21-205 Jabloä
+07-160 Jadow
+96-313 Jaktorow
+05-506 Janczewice
+88-160 Janikowo
+05-090 Janki
+44-264 Jankowice Rybnickie
+49-332 Jankowice Wielkie
+05-124 Janowek Pershy
+58-520 Janowice Wielkie
+24-123 Janowiec n. Wisly
+88-430 Janowiec Wielkopolski
+13-113 Janowo
+42-253 Janow
+23-300 Janow Lubelski
+21-505 Janow Podlaski
+63-233 Jaraczewo
+22-664 Jarczow
+58-423 Jarkowice
+63-200 Jarocin
+37-500 Jaroslaw
+32-312 Jaroszowiec
+58-120 Jaroszow
+43-385 Jasienica
+36-220 Jasienica Rosielna
+05-604 Jasieniec
+68-320 Jasie
+19-122 Jasionowka
+42-244 Jaskrow
+38-200 Jaslo
+84-140 Jastarnia
+21-002 Jastkow
+64-915 Jastrowie
+26-502 Jastrz¥b
+26-631 Jastrzebia
+84-100 Jastrzebia Gora
+26-631 Jastrzebia k. Radomia
+44-336 Jastrzebie Zdroj
+32-626 Jawiszowiec
+59-400 Jawor
+43-384 Jaworze
+43-600 Jaworzno
+46-325 Jaworzno
+38-460 Jedlicze
+58-330 Jedlina Zdroj
+26-660 Jedliäsk
+26-630 Jedlnia Letnisko
+06-323 Jednoro ec
+18-429 Jedwabne
+44-290 Jejkowice
+55-230 Jelcz-Laskowice
+58-500 Jelenia Gora
+16-404 Jeleniewo
+34-340 Jeleenia
+47-133 Jemielnica
+67-222 Jerzmanowa
+11-320 Jeziorany
+21-146 Jeziorzany
+86-131 Jezewo
+95-047 Jezow
+58-221 Jezow Sudecki
+28-300 Jedrzejow
+59-900 Jedrzychowice
+34-620 Jodlownik
+11-042 Jonkowo
+34-785 Jordanow
+05-410 Jozefow
+05-410 Jozefow-Michalin
+05-500 Jozefoslaw
+23-240 Jozefow
+05-420 Jozefow k. Otwocka
+84-141 Jurata
+63-930 Jutrosin
+22-510 Uchanie
+97-170 Ujazd
+34-371 Ujsoly
+64-850 Ujecie
+37-410 Ulanow
+62-716 Uniejow
+86-260 Unislaw
+23-250 Urzedow
+76-270 Ustka
+78-111 Ustronie Morskie
+43-450 Ustroa
+38-700 Ustrzyki Dolne
+87-200 Wabrzezno
+34-100 Wadowice
+47-344 Walce
+58-320 Walim
+58-305 Walbrzych
+78-600 Walcz
+62-120 Wapno
+05-660 Warka
+86-160 Warlubie
+74-201 Warnice
+01-464 Warszawa
+02-495 Warszawa-Ursus
+02-496 Warszawa-Ursus Gol¥bki
+98-290 Warta
+99-220 Wartkowice
+07-311 Wasewo
+16-010 Wasilkow
+27-425 Wasniow
+27-215 W¥chock
+59-430 W¥dro e Wielkie
+62-100 W¥growiec
+56-210 W¥sosz
+84-200 Wejherowo
+05-075 Wesola
+05-077 Wesola, Zakret
+38-608 Wetlina 
+34-350 Wegierska Gerka
+59-940 Wegliniec
+42-133 Weglowice
+11-600 Wegorzewo
+73-320 Wegorzyno
+07-100 Wegrow
+05-462 Wi¥zowna
+57-120 Wi¥zow
+98-170 Widawa
+74-120 Widuchowa
+76-251 Widzino k. Slupsk
+67-300 Wiechlice k. Szprotawy
+12-160 Wielbark
+64-730 Wiele
+97-525 Wielgomlyny
+64-050 Wielichowo
+32-020 Wieliczka
+19-404 Wieliczki
+05-135 Wieliszew
+37-627 Wielkie Oczy
+33-311 Wieloglowy
+26-660 Wielogera k/ Radomia
+44-187 Wielowie
+98-300 Wielu
+26-432 Wieniawa
+98-400 Wieruszow
+26-680 Wierzbica
+98-324 Wierzchlas
+33-122 Wierzchoslawice
+78-530 Wierzchowo
+89-410 Wiecbork
+67-403 Wijewo
+62-550 Wilczyn
+08-470 Wilga
+11-532 Wilkasy k/Gi ycka
+43-365 Wilkowice
+43-330 Wilamowice
+06-120 Winnica
+56-160 Wiäsko
+96-315 Wiskitki
+43-460 Wisla
+55-114 Wisznia Mala
+21-225 Wisznice
+28-160 Wielica
+08-112 Wieniew
+62-425 Witkowo
+66-460 Witnica
+99-335 Witonia
+58-100 Witoszow Dolny
+16-407 Wizajny
+18-430 Wizna
+59-610 Wlen
+29-100 Wloszczowa
+84-120 Wladyslawowo
+62-710 Wladyslawow
+87-800 Wloclawek
+22-200 Wlodawa
+42-365 Wlodowice
+64-140 Wloszakowice
+64-140 Wloszczakowice
+29-100 Wloszczowa
+28-330 Wodzislaw
+21-310 Wohyn
+46-300 Wojciechow
+21-411 Wojcieszkow
+58-579 Wojcieszow
+42-580 Wojkowice
+32-830 Wojnicz
+22-120 Wojslawice
+42-222 Wola Kiedrzyäska
+97-371 Wola Krzysztoporska
+05-552 Wola Mrokowska
+22-230 Wola Uhruska
+26-625 Wolanow
+97-320 Wolborz 
+32-340 Wolbrom
+46-250 Wolczyn
+57-431 Woliborz
+72-500 Wolin
+56-100 Wolow
+64-200 Wolsztyn
+05-200 Wolomin 
+42-289 Wo niki
+05-552 Wolka Kosowska
+42-130 Wreczyca
+42-130 Wreczyca Wielka
+51-416 Wroclaw
+64-510 Wronki
+62-300 Wrzeenia
+42-263 Wrzosowa
+42-263 Wrzosowo
+67-400 Wschowa
+11-510 Wydminy
+68-131 Wymiarki
+43-175 Wyry
+89-300 Wyrzysk
+89-320 Wysoka
+36-061 Wysoka Glogowska
+22-445 Wysokie
+18-200 Wysokie Mazowieckie
+17-132 Wyszk
+07-200 Wyszkow
+09-450 Wyszogro
+26-811 Wyemierzyce

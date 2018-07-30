@@ -5,6 +5,7 @@
 #include "Student.hpp"
 #include "Employee.hpp"
 #include "DataBase.hpp"
+#include "Generator.hpp"
 #include <iostream>
 #include <fstream>
 #include <cassert>
@@ -24,6 +25,15 @@ int main(int argc, char* argv[])
     DataBase dataBase;
     dataBase.loadDataBase();
     dataBase.dataSize();
+
+    srand( time( NULL ) );
+    Generator generator;
+
+    dataBase.dataBase_.push_back(new Student(generator.generatePESEL(),generator.drawName()
+                                             ,generator.drawLastName(), generator.drawAddress(), std::to_string(generator.generateInt(1000, 9999))));
+
+    for(auto a : dataBase.dataBase_)
+        cout << a->Occupation << " " << a->FirstName << " " << a->Address << endl;
 
     return 0;
 }
