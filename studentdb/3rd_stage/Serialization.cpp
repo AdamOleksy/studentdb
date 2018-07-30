@@ -58,6 +58,10 @@ void testStudentDB()
     assert(stud2==student2);
     assert(stud3==student3);
 
+    Person* p;
+    p = &stud3;
+    cout << p->getSpecialAttribute() << endl;
+
     std::cout << "Everything worked good!" << std::endl;
     std::string s;
     std::cin >> s;
@@ -105,4 +109,12 @@ void testEmployeeDB()
     cout << "Sex: " << empl1.getSex() << endl;
     cout << "Sex: " << empl2.getSex() << endl;
     cout << "Sex: " << empl3.getSex() << endl;
+    for (int i = -5; i < 15; i++)
+        cout << i << ":" << empl3.getPeselDigit(i) << " ";
+    cout << endl;
+    cout << empl3;
+
+    Person* p;
+    p = &empl2;
+    cout << p->getSpecialAttribute() << endl;
 }
