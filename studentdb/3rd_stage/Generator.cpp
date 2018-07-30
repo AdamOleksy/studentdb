@@ -58,17 +58,17 @@ std::string Generator::drawString(std::string fileLocation)
 //Funkcja losuje z pliku imion
 std::string Generator::drawName()
 {
-    return drawString("FirstNames.txt");
+    return drawString("Gen/FirstNames.txt");
 }
 
 //Funkcja losuje z pliku imion
 std::string Generator::drawLastName()
 {
-    return drawString("LastNames.txt");
+    return drawString("Gen/LastNames.txt");
 }
 
 //Funkcja losuje cale adresy
 std::string Generator::drawAddress()
 {
-    return drawString("Streets.txt") + ", " + drawString("Cities.txt");
+    return drawString("Gen/Streets.txt") + ", " + drawString("Gen/Cities.txt");
 }
