@@ -4,7 +4,7 @@
 
 
 Person::Person(string pesel, string firstName, string lastName, string address) : 
-    PESEL(pesel), FirstName(firstName), LastName(lastName), Address(address), peselValidator(pesel)
+    PESEL(pesel), FirstName(firstName), LastName(lastName), Address(address), peselValidator()
 {
 	Occupation = "Person";
 }
@@ -40,13 +40,13 @@ string Person::getAddress()
 
 bool Person::isPeselValid()
 {
-    return peselValidator.isPeselValid();
+    return peselValidator.isPeselValid(PESEL);
 }
 
 string Person::getSex()
 {
     if (isPeselValid())
-        return (peselValidator.getPeselDigit(9) % 2 == 1) ?
+        return (peselValidator.getPeselDigit(9, PESEL) % 2 == 1) ?
             "Man" :
             "Woman";
     return "n/a";

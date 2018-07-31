@@ -4,6 +4,7 @@
 #include "Person.hpp"
 #include "Student.hpp"
 #include "Employee.hpp"
+#include "PeselValidator.hpp"
 #include <iostream>
 #include <fstream>
 #include <cassert>
@@ -16,6 +17,16 @@ void testStudentDB();
 
 int main(int argc, char* argv[])
 {
+    // Seed random number generator
+    srand(time(0));
+
+    PeselValidator peselGenerator;
+    string pesel;
+    for (int i = 0; i < 21; i++)
+    {
+        pesel = peselGenerator.generatePesel();
+        cout << "PESEL: " << pesel << ", valid: " << peselGenerator.isPeselValid(pesel) << endl;
+    }
     testStudentDB();
 
     testEmployeeDB();
