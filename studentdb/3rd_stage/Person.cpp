@@ -4,7 +4,7 @@
 
 
 Person::Person(string pesel, string firstName, string lastName, string address) : 
-	PESEL(pesel), FirstName(firstName), LastName(lastName), Address(address)
+    PESEL(pesel), FirstName(firstName), LastName(lastName), Address(address), peselValidator(pesel)
 {
 	Occupation = "Person";
 }
@@ -38,26 +38,17 @@ string Person::getAddress()
 	return Address;
 }
 
-bool Person::validPesel()
+bool Person::isPeselValid()
 {
-    // Check if is number and 11 digit long
-    return true;
-}
-
-int Person::getPeselDigit(int index)
-{
-    if (PESEL.length() <= index)
-        return (int)(PESEL[index] - '0');
-    return -1;
+    return peselValidator.isPeselValid();
 }
 
 string Person::getSex()
 {
-    if (validPesel())
-        if (isdigit(PESEL[9]))
-            return ((int)(PESEL[9] - '0') % 2 == 1) ?
-                "Man" :
-                "Woman";
+    if (isPeselValid())
+        return (peselValidator.getPeselDigit(9) % 2 == 1) ?
+            "Man" :
+            "Woman";
     return "n/a";
 }
 

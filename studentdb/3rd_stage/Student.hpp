@@ -13,6 +13,9 @@ public:
     Student();
     Student(string pesel, string firstName, string lastName, string address, string indexNumber);
     ~Student();
+
+    string getSpecialAttribute();
+
 	friend std::ostream& operator<<(std::ostream& out, Student& obj);
 	friend std::istream& operator>>(std::istream& in, Student& obj);
 };

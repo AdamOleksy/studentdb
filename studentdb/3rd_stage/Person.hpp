@@ -2,6 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include "PeselValidator.hpp"
 
 using namespace std;
 
@@ -13,7 +14,9 @@ public:
 	string FirstName;
 	string LastName;
 	string Address;
+    PeselValidator peselValidator;
 
+    Person();
     Person(string pesel, string firstName, string lastName, string address);
     ~Person();
     
@@ -22,9 +25,10 @@ public:
     string getLastName();
 	string getFullName();
     string getAddress();
-    bool validPesel();
+    bool isPeselValid();
     int getPeselDigit(int index);
     string getSex();
+    virtual string getSpecialAttribute() = 0; // Return field in derived classes
 
 	friend bool operator==(Person& obj1, Person& obj2);
 	friend std::ostream& operator<<(std::ostream& out, Person& obj);

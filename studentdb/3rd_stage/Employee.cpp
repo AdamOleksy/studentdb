@@ -2,11 +2,6 @@
 #include <iostream>
 #include <string>
 
-// This is to be removed, just to testing purposes
-Employee::Employee()
-    : Person("", "", "", "")
-{
-}
 
 Employee::Employee(string pesel, string firstName, string lastName, string address, float salary)
     : Person(pesel, firstName, lastName, address), Salary(salary)
@@ -16,6 +11,11 @@ Employee::Employee(string pesel, string firstName, string lastName, string addre
 
 Employee::~Employee()
 {
+}
+
+string Employee::getSpecialAttribute()
+{
+    return to_string(Salary);
 }
 
 // Write the member variables to stream objects
