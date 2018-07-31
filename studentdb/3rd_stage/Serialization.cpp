@@ -35,6 +35,8 @@ int main(int argc, char* argv[])
     for(auto a : dataBase.dataBase_)
         cout << a->Occupation << " " << a->FirstName << " " << a->Address << endl;
 
+
+
     return 0;
 }
 
@@ -75,7 +77,7 @@ void testStudentDB()
 
     Person* p;
     p = &stud3;
-    cout << p->getSpecialAttribute() << endl;
+    //cout << p->getSpecialAttribute() << endl;
 
     std::cout << "Everything worked good!" << std::endl;
     std::string s;
@@ -131,6 +133,6 @@ void testEmployeeDB()
 
     Person* p;
     p = &empl2;
-    cout << p->getSpecialAttribute() << endl;
+    //cout << p->getSpecialAttribute() << endl;
 }
 

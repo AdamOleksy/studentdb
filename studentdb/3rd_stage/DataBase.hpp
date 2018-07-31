@@ -23,5 +23,4 @@ public:
 
     //Wyszukiwanie po peselu
     void findByPESEL(std::string PES);
-
 };
