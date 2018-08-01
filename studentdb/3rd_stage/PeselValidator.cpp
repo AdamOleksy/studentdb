@@ -82,17 +82,16 @@ int PeselValidator::getDay(string pesel)
     return day;
 }
 
-// Returns true if given year is leap
+// Return true if year is a multiple of 4 and
+// not multiple of 100 OR year is multiple of 400.
 bool PeselValidator::isLeapYear(int year)
 {
-    // Return true if year is a multiple of 4 and
-    // not multiple of 100 OR year is multiple of 400.
     return (((year % 4 == 0) &&
              (year % 100 != 0)) ||
              (year % 400 == 0));
 }
 
-// Returns true if given date is valid
+// Return true if given date is valid
 bool PeselValidator::isDateValid(int year, int month, int day)
 {
     // Check if inputs are in given range
@@ -110,7 +109,7 @@ bool PeselValidator::isDateValid(int year, int month, int day)
     }
 
     // Months: April, June, September and November have
-    // number of days less than or equal to 30.
+    // number of days equal to 30
     switch (month)
     {
         case 4:

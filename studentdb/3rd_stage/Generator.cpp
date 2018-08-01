@@ -2,6 +2,16 @@
 #include <fstream>
 #include <vector>
 
+Generator::Generator() : peselGenerator()
+{
+}
+
+//Funkcja generuje POPRAWNE numery PESEL
+std::string Generator::generateValidPESEL()
+{
+   return  peselGenerator.generatePesel();
+}
+
 //Funkcja losuje liczbe z podanego zakresu
 int Generator::generateInt(int min, int quantity)
 {

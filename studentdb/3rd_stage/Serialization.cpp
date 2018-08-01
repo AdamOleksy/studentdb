@@ -17,9 +17,6 @@ void testStudentDB();
 
 int main(int argc, char* argv[])
 {
-    // Seed random number generator
-    srand(time(0));
-
     PeselValidator peselGenerator;
     string pesel;
     for (int i = 0; i < 21; i++)
