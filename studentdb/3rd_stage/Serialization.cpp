@@ -22,7 +22,7 @@ int main(int argc, char* argv[])
     for (int i = 0; i < 21; i++)
     {
         pesel = peselGenerator.generatePesel();
-        cout << "PESEL: " << pesel << ", valid: " << peselGenerator.isPeselValid(pesel) << endl;
+        cout << "PESEL: " << pesel << ", valid: " << std::boolalpha << peselGenerator.isPeselValid(pesel) << endl;
     }
     testStudentDB();
 
